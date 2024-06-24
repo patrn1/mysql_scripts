@@ -10,6 +10,8 @@ cd /tmp;
 
 mkdir mysql_${time};
 
+cd mysql_${time};
+
 # https://dev.mysql.com/get/Downloads/MySQL-8.4/mysql-server_8.4.0-1debian12_amd64.deb-bundle.tar;
 wget $1;
 
